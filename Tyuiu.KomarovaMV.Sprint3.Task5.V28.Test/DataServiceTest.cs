@@ -14,7 +14,7 @@ namespace Tyuiu.KomarovaMV.Sprint3.Task5.V28.Test
             int i2 = 3;
             int k1 = 1;
             int k2 = 12;
-            Assert.AreEqual(27020,ds.GetSumSumSeries(x,i1,i2,k1,k2));
+            Assert.AreEqual(-1032.182, ds.GetSumSumSeries(x,i1,k1,i2,k2));
         }
     }
 }

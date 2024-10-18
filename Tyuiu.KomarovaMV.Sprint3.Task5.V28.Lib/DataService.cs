@@ -10,10 +10,10 @@ namespace Tyuiu.KomarovaMV.Sprint3.Task5.V28.Lib
             {
                 for (int j = startValue2; j <= stopValue2; j++)
                 {
-                    sum += Math.Pow(j, x) / Math.Cos(j);
+                    sum = sum +Math.Pow(j, x) / Math.Sin(j);
                 }
             }
-            return Math.Round(sum);
+            return Math.Round(sum,3);
         }
     }
 }

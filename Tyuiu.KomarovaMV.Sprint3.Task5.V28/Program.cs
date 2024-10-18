@@ -30,6 +30,6 @@ internal class Program
         int i2 = 3;
         int k1 = 1;
         int k2 = 12;
-        Console.WriteLine(ds.GetSumSumSeries(x, i1, i2, k1, k2));
+        Console.WriteLine(ds.GetSumSumSeries(x, i1, k1, i2, k2));
     }
 }
