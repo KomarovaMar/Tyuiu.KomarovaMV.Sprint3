@@ -10,7 +10,7 @@ namespace Tyuiu.KomarovaMV.Sprint3.Task0.V28.Lib
             {
                 res *= (Math.Pow(value, 3) * i) + 2;
             }
-            return res;
+            return Math.Round(res,3);
         }
     }
 }
