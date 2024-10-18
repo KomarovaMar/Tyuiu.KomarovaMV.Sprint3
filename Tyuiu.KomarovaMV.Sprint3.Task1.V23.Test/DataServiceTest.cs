@@ -11,7 +11,7 @@ namespace Tyuiu.KomarovaMV.Sprint3.Task1.V23.Test
             int x = 5;
             int i = 1;
             int j=5;
-            Assert.AreEqual(8734, 911, ds.GetMultiplySeries(x,i,j));
+            Assert.AreEqual(0.071, ds.GetMultiplySeries(x,i,j));
         }
     }
 }
