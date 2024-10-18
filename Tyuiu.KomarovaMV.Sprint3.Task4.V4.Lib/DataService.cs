@@ -8,7 +8,7 @@ namespace Tyuiu.KomarovaMV.Sprint3.Task4.V4.Lib
             double res = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                if (i == 0) { continue; }
+                if (i == 0) { break; }
                 res += i / (Math.Cos(i) + Math.Sin(i));
             }
             return Math.Round(res,3);

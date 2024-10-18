@@ -10,7 +10,7 @@ namespace Tyuiu.KomarovaMV.Sprint3.Task4.V4.Test
             DataService ds = new DataService();
             int x = -5;
             int y = 5;
-            Assert.AreEqual(-44.313, ds.Calculate(x,y));
+            Assert.AreEqual(-35.317, ds.Calculate(x,y));
         }
     }
 }
